@@ -18,7 +18,7 @@ x_bottom="$blue└"
 x_cross="$red✗"
 x_tick="$greenb✓"
 
-PS1_time="$x_top(${orange}$(date '+%H:%M')$blue)"
+PS1_time="$x_top(${orange}\A$blue)"
 PS1_cwd="$x_center($cyanb\w$reset$blue)"
 #PS1_user="$x_center($gray\u$blue)"
 #PS1_user_host="$x_center($gray\u$reset@$gray\h$blue)"
