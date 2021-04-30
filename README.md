@@ -16,5 +16,8 @@ Install script is not tested yet, do
 ```
 And please notify me if that worked.
 
+## TODO list
+* [ ] Set max size to pwd so that it doesn't overflow the first line
+
 ## Contributing
 Any issues and pull requests are welcome (though the latter is preferred)
