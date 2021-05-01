@@ -12,7 +12,7 @@ To show current username and host just uncomment some lines from prompt.sh
 ## Install
 Install script is not tested yet, do
 ```
-sudo install.sh
+sudo bash install.sh
 ```
 And please notify me if that worked.
 
