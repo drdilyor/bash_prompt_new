@@ -1,8 +1,9 @@
+#!/usr/bin/bash
 base_dir="/usr/lib/"
 
 do_patch() {
   if [[ -d "$1" && -d "$1/venv" ]]; then
-    directory="$1" python do_patch.py
+    sudo directory="$1" python do_patch.py
   else
     echo skipping $1
   fi
